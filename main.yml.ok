@@ -13,8 +13,7 @@
 #   Bare variables
 #   No use of handlers
 
-- name: Basic configuration
-  hosts: all
+- hosts: all
   gather_facts: false # remove later! speeds up testing
   become: true
   roles: 
